@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=Net74HC595Sparkfun_6_14 Pin=74HC595Sparkfun_6-14
+Added Pin To Net: NetName=Net74HC595Sparkfun_6_14 Pin=74HC595Sparkfun_7-7
+Added Net: Name=Net74HC595Sparkfun_6_14
+Added Member To Class: ClassName=SchemaM02 Member=Component 74HC595Sparkfun_6 74HC595
+Added Room: Name=SchemaM02

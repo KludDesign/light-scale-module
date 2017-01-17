@@ -1,0 +1,189 @@
+Removed Pin From Net: NetName=Net74HC595Sparkfun_1_7 Pin=Maître-D12
+Added Component: Designator=74HC595Sparkfun_1(74HC595)
+Added Component: Designator=74HC595Sparkfun_2(74HC595)
+Added Component: Designator=74HC595Sparkfun_3(74HC595)
+Added Component: Designator=74HC595Sparkfun_4(74HC595)
+Added Component: Designator=74HC595Sparkfun_5(74HC595)
+Added Component: Designator=74HC595Sparkfun_6(74HC595)
+Added Component: Designator=74HC595Sparkfun_7(74HC595)
+Added Component: Designator=74HC595Sparkfun_8(74HC595)
+Added Component: Designator=74HC595Sparkfun_9(74HC595)
+Added Component: Designator=74HC595Sparkfun_10(74HC595)
+Added Pin To Net: NetName=VCC Pin=74HC595Sparkfun_1-1
+Added Pin To Net: NetName=GND Pin=74HC595Sparkfun_1-2
+Added Pin To Net: NetName=VCC Pin=74HC595Sparkfun_1-3
+Added Pin To Net: NetName=GND Pin=74HC595Sparkfun_1-4
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_7 Pin=74HC595Sparkfun_1-7
+Added Pin To Net: NetName=Net1_2 Pin=74HC595Sparkfun_1-15
+Added Pin To Net: NetName=Net2_2 Pin=74HC595Sparkfun_1-16
+Added Pin To Net: NetName=Net3_2 Pin=74HC595Sparkfun_1-17
+Added Pin To Net: NetName=Net4_2 Pin=74HC595Sparkfun_1-18
+Added Pin To Net: NetName=Net5_2 Pin=74HC595Sparkfun_1-19
+Added Pin To Net: NetName=Net6_2 Pin=74HC595Sparkfun_1-20
+Added Pin To Net: NetName=Net7_2 Pin=74HC595Sparkfun_1-21
+Added Pin To Net: NetName=Net8_2 Pin=74HC595Sparkfun_1-22
+Added Pin To Net: NetName=VCC Pin=74HC595Sparkfun_2-1
+Added Pin To Net: NetName=GND Pin=74HC595Sparkfun_2-2
+Added Pin To Net: NetName=VCC Pin=74HC595Sparkfun_2-3
+Added Pin To Net: NetName=GND Pin=74HC595Sparkfun_2-4
+Added Pin To Net: NetName=Net9_2 Pin=74HC595Sparkfun_2-15
+Added Pin To Net: NetName=Net10_2 Pin=74HC595Sparkfun_2-16
+Added Pin To Net: NetName=Net11_2 Pin=74HC595Sparkfun_2-17
+Added Pin To Net: NetName=Net12_2 Pin=74HC595Sparkfun_2-18
+Added Pin To Net: NetName=Net13_2 Pin=74HC595Sparkfun_2-19
+Added Pin To Net: NetName=Net14_2 Pin=74HC595Sparkfun_2-20
+Added Pin To Net: NetName=Net15_2 Pin=74HC595Sparkfun_2-21
+Added Pin To Net: NetName=Net16_2 Pin=74HC595Sparkfun_2-22
+Added Pin To Net: NetName=VCC Pin=74HC595Sparkfun_3-1
+Added Pin To Net: NetName=GND Pin=74HC595Sparkfun_3-2
+Added Pin To Net: NetName=VCC Pin=74HC595Sparkfun_3-3
+Added Pin To Net: NetName=GND Pin=74HC595Sparkfun_3-4
+Added Pin To Net: NetName=Net17_2 Pin=74HC595Sparkfun_3-15
+Added Pin To Net: NetName=Net18_2 Pin=74HC595Sparkfun_3-16
+Added Pin To Net: NetName=Net19_2 Pin=74HC595Sparkfun_3-17
+Added Pin To Net: NetName=Net20_2 Pin=74HC595Sparkfun_3-18
+Added Pin To Net: NetName=Net21_2 Pin=74HC595Sparkfun_3-19
+Added Pin To Net: NetName=Net22_2 Pin=74HC595Sparkfun_3-20
+Added Pin To Net: NetName=Net23_2 Pin=74HC595Sparkfun_3-21
+Added Pin To Net: NetName=Net24_2 Pin=74HC595Sparkfun_3-22
+Added Pin To Net: NetName=VCC Pin=74HC595Sparkfun_4-1
+Added Pin To Net: NetName=GND Pin=74HC595Sparkfun_4-2
+Added Pin To Net: NetName=VCC Pin=74HC595Sparkfun_4-3
+Added Pin To Net: NetName=GND Pin=74HC595Sparkfun_4-4
+Added Pin To Net: NetName=Net25_2 Pin=74HC595Sparkfun_4-15
+Added Pin To Net: NetName=Net26_2 Pin=74HC595Sparkfun_4-16
+Added Pin To Net: NetName=Net27_2 Pin=74HC595Sparkfun_4-17
+Added Pin To Net: NetName=Net28_2 Pin=74HC595Sparkfun_4-18
+Added Pin To Net: NetName=Net29_2 Pin=74HC595Sparkfun_4-19
+Added Pin To Net: NetName=Net30_2 Pin=74HC595Sparkfun_4-20
+Added Pin To Net: NetName=Net31_2 Pin=74HC595Sparkfun_4-21
+Added Pin To Net: NetName=Net32_2 Pin=74HC595Sparkfun_4-22
+Added Pin To Net: NetName=VCC Pin=74HC595Sparkfun_5-1
+Added Pin To Net: NetName=GND Pin=74HC595Sparkfun_5-2
+Added Pin To Net: NetName=VCC Pin=74HC595Sparkfun_5-3
+Added Pin To Net: NetName=GND Pin=74HC595Sparkfun_5-4
+Added Pin To Net: NetName=Net33_2 Pin=74HC595Sparkfun_5-15
+Added Pin To Net: NetName=Net34_2 Pin=74HC595Sparkfun_5-16
+Added Pin To Net: NetName=Net35_2 Pin=74HC595Sparkfun_5-17
+Added Pin To Net: NetName=Net36_2 Pin=74HC595Sparkfun_5-18
+Added Pin To Net: NetName=Net37_2 Pin=74HC595Sparkfun_5-19
+Added Pin To Net: NetName=Net38_2 Pin=74HC595Sparkfun_5-20
+Added Pin To Net: NetName=Net39_2 Pin=74HC595Sparkfun_5-21
+Added Pin To Net: NetName=Net40_2 Pin=74HC595Sparkfun_5-22
+Added Pin To Net: NetName=VCC Pin=74HC595Sparkfun_6-1
+Added Pin To Net: NetName=GND Pin=74HC595Sparkfun_6-2
+Added Pin To Net: NetName=VCC Pin=74HC595Sparkfun_6-3
+Added Pin To Net: NetName=GND Pin=74HC595Sparkfun_6-4
+Added Pin To Net: NetName=Net41_2 Pin=74HC595Sparkfun_6-15
+Added Pin To Net: NetName=Net42_2 Pin=74HC595Sparkfun_6-16
+Added Pin To Net: NetName=Net43_2 Pin=74HC595Sparkfun_6-17
+Added Pin To Net: NetName=Net44_2 Pin=74HC595Sparkfun_6-18
+Added Pin To Net: NetName=Net45_2 Pin=74HC595Sparkfun_6-19
+Added Pin To Net: NetName=Net46_2 Pin=74HC595Sparkfun_6-20
+Added Pin To Net: NetName=Net47_2 Pin=74HC595Sparkfun_6-21
+Added Pin To Net: NetName=Net48_2 Pin=74HC595Sparkfun_6-22
+Added Pin To Net: NetName=VCC Pin=74HC595Sparkfun_7-1
+Added Pin To Net: NetName=GND Pin=74HC595Sparkfun_7-2
+Added Pin To Net: NetName=VCC Pin=74HC595Sparkfun_7-3
+Added Pin To Net: NetName=GND Pin=74HC595Sparkfun_7-4
+Added Pin To Net: NetName=Net49_2 Pin=74HC595Sparkfun_7-15
+Added Pin To Net: NetName=Net50_2 Pin=74HC595Sparkfun_7-16
+Added Pin To Net: NetName=Net51_2 Pin=74HC595Sparkfun_7-17
+Added Pin To Net: NetName=Net52_2 Pin=74HC595Sparkfun_7-18
+Added Pin To Net: NetName=Net53_2 Pin=74HC595Sparkfun_7-19
+Added Pin To Net: NetName=Net54_2 Pin=74HC595Sparkfun_7-20
+Added Pin To Net: NetName=Net55_2 Pin=74HC595Sparkfun_7-21
+Added Pin To Net: NetName=Net56_2 Pin=74HC595Sparkfun_7-22
+Added Pin To Net: NetName=VCC Pin=74HC595Sparkfun_8-1
+Added Pin To Net: NetName=GND Pin=74HC595Sparkfun_8-2
+Added Pin To Net: NetName=VCC Pin=74HC595Sparkfun_8-3
+Added Pin To Net: NetName=GND Pin=74HC595Sparkfun_8-4
+Added Pin To Net: NetName=Net57_2 Pin=74HC595Sparkfun_8-15
+Added Pin To Net: NetName=Net58_2 Pin=74HC595Sparkfun_8-16
+Added Pin To Net: NetName=Net59_2 Pin=74HC595Sparkfun_8-17
+Added Pin To Net: NetName=Net60_2 Pin=74HC595Sparkfun_8-18
+Added Pin To Net: NetName=Net61_2 Pin=74HC595Sparkfun_8-19
+Added Pin To Net: NetName=Net62_2 Pin=74HC595Sparkfun_8-20
+Added Pin To Net: NetName=Net63_2 Pin=74HC595Sparkfun_8-21
+Added Pin To Net: NetName=Net64_2 Pin=74HC595Sparkfun_8-22
+Added Pin To Net: NetName=VCC Pin=74HC595Sparkfun_9-1
+Added Pin To Net: NetName=GND Pin=74HC595Sparkfun_9-2
+Added Pin To Net: NetName=VCC Pin=74HC595Sparkfun_9-3
+Added Pin To Net: NetName=GND Pin=74HC595Sparkfun_9-4
+Added Pin To Net: NetName=Net65_2 Pin=74HC595Sparkfun_9-15
+Added Pin To Net: NetName=Net66_2 Pin=74HC595Sparkfun_9-16
+Added Pin To Net: NetName=Net67_2 Pin=74HC595Sparkfun_9-17
+Added Pin To Net: NetName=Net68_2 Pin=74HC595Sparkfun_9-18
+Added Pin To Net: NetName=Net69_2 Pin=74HC595Sparkfun_9-19
+Added Pin To Net: NetName=Net70_2 Pin=74HC595Sparkfun_9-20
+Added Pin To Net: NetName=Net71_2 Pin=74HC595Sparkfun_9-21
+Added Pin To Net: NetName=Net72_2 Pin=74HC595Sparkfun_9-22
+Added Pin To Net: NetName=VCC Pin=74HC595Sparkfun_10-1
+Added Pin To Net: NetName=GND Pin=74HC595Sparkfun_10-2
+Added Pin To Net: NetName=VCC Pin=74HC595Sparkfun_10-3
+Added Pin To Net: NetName=GND Pin=74HC595Sparkfun_10-4
+Added Pin To Net: NetName=Net73_2 Pin=74HC595Sparkfun_10-15
+Added Pin To Net: NetName=Net74_2 Pin=74HC595Sparkfun_10-16
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_7 Pin=Maître-D11
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_5 Pin=74HC595Sparkfun_1-5
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_5 Pin=74HC595Sparkfun_2-5
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_5 Pin=74HC595Sparkfun_3-5
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_5 Pin=74HC595Sparkfun_4-5
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_5 Pin=74HC595Sparkfun_5-5
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_5 Pin=74HC595Sparkfun_6-5
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_5 Pin=74HC595Sparkfun_7-5
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_5 Pin=74HC595Sparkfun_8-5
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_5 Pin=74HC595Sparkfun_9-5
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_5 Pin=74HC595Sparkfun_10-5
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_5 Pin=Maître-D12
+Added Net: Name=Net74HC595Sparkfun_1_5
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_6 Pin=74HC595Sparkfun_1-6
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_6 Pin=74HC595Sparkfun_2-6
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_6 Pin=74HC595Sparkfun_3-6
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_6 Pin=74HC595Sparkfun_4-6
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_6 Pin=74HC595Sparkfun_5-6
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_6 Pin=74HC595Sparkfun_6-6
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_6 Pin=74HC595Sparkfun_7-6
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_6 Pin=74HC595Sparkfun_8-6
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_6 Pin=74HC595Sparkfun_9-6
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_6 Pin=74HC595Sparkfun_10-6
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_6 Pin=Maître-D8
+Added Net: Name=Net74HC595Sparkfun_1_6
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_14 Pin=74HC595Sparkfun_1-14
+Added Pin To Net: NetName=Net74HC595Sparkfun_1_14 Pin=74HC595Sparkfun_2-7
+Added Net: Name=Net74HC595Sparkfun_1_14
+Added Pin To Net: NetName=Net74HC595Sparkfun_2_14 Pin=74HC595Sparkfun_2-14
+Added Pin To Net: NetName=Net74HC595Sparkfun_2_14 Pin=74HC595Sparkfun_3-7
+Added Net: Name=Net74HC595Sparkfun_2_14
+Added Pin To Net: NetName=Net74HC595Sparkfun_3_14 Pin=74HC595Sparkfun_3-14
+Added Pin To Net: NetName=Net74HC595Sparkfun_3_14 Pin=74HC595Sparkfun_4-7
+Added Net: Name=Net74HC595Sparkfun_3_14
+Added Pin To Net: NetName=Net74HC595Sparkfun_4_14 Pin=74HC595Sparkfun_4-14
+Added Pin To Net: NetName=Net74HC595Sparkfun_4_14 Pin=74HC595Sparkfun_5-7
+Added Net: Name=Net74HC595Sparkfun_4_14
+Added Pin To Net: NetName=Net74HC595Sparkfun_5_14 Pin=74HC595Sparkfun_5-14
+Added Pin To Net: NetName=Net74HC595Sparkfun_5_14 Pin=74HC595Sparkfun_6-7
+Added Net: Name=Net74HC595Sparkfun_5_14
+Added Pin To Net: NetName=Net74HC595Sparkfun_7_14 Pin=74HC595Sparkfun_7-14
+Added Pin To Net: NetName=Net74HC595Sparkfun_7_14 Pin=74HC595Sparkfun_8-7
+Added Net: Name=Net74HC595Sparkfun_7_14
+Added Pin To Net: NetName=Net74HC595Sparkfun_8_14 Pin=74HC595Sparkfun_8-14
+Added Pin To Net: NetName=Net74HC595Sparkfun_8_14 Pin=74HC595Sparkfun_9-7
+Added Net: Name=Net74HC595Sparkfun_8_14
+Added Pin To Net: NetName=Net74HC595Sparkfun_9_14 Pin=74HC595Sparkfun_9-14
+Added Pin To Net: NetName=Net74HC595Sparkfun_9_14 Pin=74HC595Sparkfun_10-7
+Added Net: Name=Net74HC595Sparkfun_9_14
+Added Pin To Net: NetName=Net74HC595Sparkfun_10_17 Pin=74HC595Sparkfun_10-17
+Added Pin To Net: NetName=Net74HC595Sparkfun_10_17 Pin=75-2
+Added Net: Name=Net74HC595Sparkfun_10_17
+Added Member To Class: ClassName=SchemaM02 Member=Component 74HC595Sparkfun_1 74HC595
+Added Member To Class: ClassName=SchemaM02 Member=Component 74HC595Sparkfun_2 74HC595
+Added Member To Class: ClassName=SchemaM02 Member=Component 74HC595Sparkfun_3 74HC595
+Added Member To Class: ClassName=SchemaM02 Member=Component 74HC595Sparkfun_4 74HC595
+Added Member To Class: ClassName=SchemaM02 Member=Component 74HC595Sparkfun_5 74HC595
+Added Member To Class: ClassName=SchemaM02 Member=Component 74HC595Sparkfun_6 74HC595
+Added Member To Class: ClassName=SchemaM02 Member=Component 74HC595Sparkfun_7 74HC595
+Added Member To Class: ClassName=SchemaM02 Member=Component 74HC595Sparkfun_8 74HC595
+Added Member To Class: ClassName=SchemaM02 Member=Component 74HC595Sparkfun_9 74HC595
+Added Member To Class: ClassName=SchemaM02 Member=Component 74HC595Sparkfun_10 74HC595
+Added Room: Name=SchemaM02

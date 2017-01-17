@@ -10,5 +10,5 @@ Four 50 Kg micro load cells (http://www.robotshop.com/eu/fr/micro-cellule-force-
 Each three Arduino slaves are connected to the Arduino master via A4 and A5 plug, get and treat the data before transmitting into bits. 
 
 ### PCB
-A personnal PCB are build in order to connect 72 leds. 
+A personnal PCB are build from Altium Designer software, in order to connect 72 leds. 
 To light-up as much needed leds with enought Arduino output, 9 shift registers 74hc595 (https://www.sparkfun.com/products/10680) are connected in serie.

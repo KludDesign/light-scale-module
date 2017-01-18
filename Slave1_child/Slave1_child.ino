@@ -17,8 +17,8 @@ int valRaw4;
 int ValTotal;
 int ValKg;
 
+// Weight calculation
 void requestEvent() {
-  //Calcul du poids 
   val1 = wsb_strain1.measureForce();
   valRaw1 = wsb_strain1.getLastForceRawADC();
   val2 = wsb_strain2.measureForce();
@@ -29,21 +29,19 @@ void requestEvent() {
   valRaw4 = wsb_strain4.getLastForceRawADC();
   ValTotal = valRaw1+valRaw2+valRaw3+valRaw4;
 
+  // Scale calibration
+  // Did by "rule of three" with comparaison in the reality
   ValKg = (ValTotal - 1410)*0.28;
   
-  Wire.write(ValKg); // respond with message of 6 bytes
-  // as expected by master
+  Wire.write(ValKg); // respond with message of 6 bytes as expected by master
 }
 
 void setup() {
-  Wire.begin(1);                // join i2c bus with address #8
-  Wire.onRequest(requestEvent);
+  Wire.begin(1); // join i2c bus with address #1, the child scale
+  Wire.onRequest(requestEvent); // Send data to master
 }
 
 void loop() {
   delay(100);
 }
-
-// function that executes whenever data is requested by master
-// this function is registered as an event, see setup()
 

@@ -28,15 +28,15 @@ void requestEvent() {
   val4 = wsb_strain4.measureForce();
   valRaw4 = wsb_strain4.getLastForceRawADC();
   ValTotal = valRaw1+valRaw2+valRaw3+valRaw4;
-  
-  ValKg = (ValTotal - 1695)*0.29;
+
+  ValKg = (ValTotal - 995)*0.18;
   
   Wire.write(ValKg); // respond with message of 6 bytes
   // as expected by master
 }
 
 void setup() {
-  Wire.begin(2);                // join i2c bus with address #8
+  Wire.begin(3);                // join i2c bus with address #8
   Wire.onRequest(requestEvent);
 }
 

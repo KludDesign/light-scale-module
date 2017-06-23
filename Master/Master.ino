@@ -125,20 +125,20 @@ void loop() {
     }
 
     // Adjusting value to 0 after getting via I2C port
-    ValKgEsclave1 = ValKgEsclave1-10;
-    ValKgEsclave2 = ValKgEsclave2-35;
-    ValKgEsclave3 = ValKgEsclave3-6;
+    ValKgEsclave1 = ValKgEsclave1-15;
+    ValKgEsclave2 = ValKgEsclave2-3;
+    ValKgEsclave3 = ValKgEsclave3-15;
 
     delay(500);
 
     // Get the value from serie for debug if any problem
-    Serial.println(ValKgEsclave1, DEC);
-    Serial.println(ValKgEsclave2, DEC);
+    //Serial.println(ValKgEsclave1, DEC);
+    //Serial.println(ValKgEsclave2, DEC);
     Serial.println(ValKgEsclave3, DEC);
-    Serial.println("");
+    //Serial.println("");
    
     // If weight >100kg
-    if (ValKgEsclave1 > 100 || ValKgEsclave2 > 100 || ValKgEsclave3 > 100){
+    if (ValKgEsclave1 > 110 || ValKgEsclave2 > 110 || ValKgEsclave3 > 110){
             digitalWrite(latchPin, LOW);
             shiftOut(dataPin, clockPin, MSBFIRST, sequence[73][0]);
             shiftOut(dataPin, clockPin, MSBFIRST, sequence[73][1]);
@@ -177,12 +177,30 @@ void loop() {
               shiftOut(dataPin, clockPin, MSBFIRST, sequence[1][7]);
               shiftOut(dataPin, clockPin, MSBFIRST, sequence[1][8]);
               digitalWrite(latchPin, HIGH);}
-  
-           else{
+
+          // If no body on any scale
+          else{
+            
+            if (ValKgEsclave1<5 && ValKgEsclave2<5 && ValKgEsclave3<5){
+          
+              digitalWrite(latchPin, LOW);
+              shiftOut(dataPin, clockPin, MSBFIRST, sequence[1][0]);
+              shiftOut(dataPin, clockPin, MSBFIRST, sequence[1][1]);
+              shiftOut(dataPin, clockPin, MSBFIRST, sequence[1][2]);
+              shiftOut(dataPin, clockPin, MSBFIRST, sequence[1][3]);
+              shiftOut(dataPin, clockPin, MSBFIRST, sequence[1][4]);
+              shiftOut(dataPin, clockPin, MSBFIRST, sequence[1][5]);
+              shiftOut(dataPin, clockPin, MSBFIRST, sequence[1][6]);
+              shiftOut(dataPin, clockPin, MSBFIRST, sequence[1][7]);
+              shiftOut(dataPin, clockPin, MSBFIRST, sequence[1][8]);
+              digitalWrite(latchPin, HIGH);
+              delay(200);}
+
+              else{
                 // Child scale
                 if (ValKgEsclave1>ValKgEsclave2 && ValKgEsclave1>ValKgEsclave3){
                   
-                    ValKgEnfant = (ValKgEsclave1)*0.7; // Water quantity  = 70%
+                    ValKgEnfant = (ValKgEsclave1)*0.68; // Water quantity  = 70%
               
                     for (int row = 0; row < ValKgEnfant; row++){
                         digitalWrite(latchPin, LOW);
@@ -202,7 +220,7 @@ void loop() {
                 // Adult scale
                 if (ValKgEsclave2>ValKgEsclave1 && ValKgEsclave2>ValKgEsclave3){
                   
-                    ValKgAdulte = (ValKgEsclave2)*0.62; // Water quantity  = 62%
+                    ValKgAdulte = (ValKgEsclave2)*0.65; // Water quantity  = 62%
                     
                     for (int row = 0; row < ValKgAdulte; row++){
                         digitalWrite(latchPin, LOW);
@@ -216,7 +234,7 @@ void loop() {
                         shiftOut(dataPin, clockPin, MSBFIRST, sequence[row][7]);
                         shiftOut(dataPin, clockPin, MSBFIRST, sequence[row][8]);
                         digitalWrite(latchPin, HIGH);}}
-              
+          
                 delay(300);
               
                 // Old person scale
@@ -236,9 +254,14 @@ void loop() {
                         shiftOut(dataPin, clockPin, MSBFIRST, sequence[row][7]);
                         shiftOut(dataPin, clockPin, MSBFIRST, sequence[row][8]);
                         digitalWrite(latchPin, HIGH);}}
-                      
-            }
-        }
+
+                delay(300);
+
+      }
+      delay(300);
+    }
+    delay(300);
+  }
   delay(300);
 }
 

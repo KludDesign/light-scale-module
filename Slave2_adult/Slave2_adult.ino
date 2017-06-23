@@ -31,7 +31,7 @@ void requestEvent() {
   
   // Scale calibration
   // Did by "rule of three" with comparaison in the reality
-  ValKg = (ValTotal - 1695)*0.29;
+  ValKg = (ValTotal - 1198)*0.2;
   
   Wire.write(ValKg); // respond with message of 6 bytes as expected by master
 }
